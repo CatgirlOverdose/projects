@@ -1044,27 +1044,27 @@ function undertaleTheme() {
           color: #FFFFFF;
       }
       .footer {
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       hr {
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #opponent_selection_description_window {
           color: #FFFFFF;
           background-color: #000000;
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #inner_window_4 {
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #running_mate_description_window {
           color: #FFFFFF;
           background-color: #000000;
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #running_mate_image {
@@ -1072,13 +1072,13 @@ function undertaleTheme() {
           border-style: solid;
       }
       #inner_window_3 {
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #candidate_description_window {
           color: #FFFFFF;
           background-color: #000000;
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #candidate_image {
@@ -1088,7 +1088,7 @@ function undertaleTheme() {
       #inner_window_1 {
           color: #FFFFFF;
           background-color: #000000;
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #election_image img {
@@ -1096,13 +1096,13 @@ function undertaleTheme() {
           border-style: solid;
       }
       #inner_window_2 {
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #election_description_window {
           color: #FFFFFF;
           background-color: #000000;
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #map_container {
@@ -1169,19 +1169,19 @@ function undertaleTheme() {
       .inner_window_question {
           color: #FFFFFF;
           background-color: #000000;
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       .inner_inner_window h3 {
-          color: #000000;
-          background-color: #FFFFFF;
+          color: #FFFFFF;
+          background-color: #000000;
           border-color: #FFFFFF;
           border-style: solid;
       }
       .inner_window_sign_display {
           color: #FFFFFF;
           background-color: #000000;
-          border-color: #000000;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #visit_window {
@@ -1535,11 +1535,11 @@ const gameThemes = {
     nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#000000"
     document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
     $("#game_window")[0].style.backgroundColor = "#000000"
-    $("#game_window")[0].style.borderColor = "#000000"
+    $("#game_window")[0].style.borderColor = "#FFFFFF"
     $("#game_window")[0].style.backgroundImage = ""
-    $(".container")[0].style.borderColor = "#000000"
+    $(".container")[0].style.borderColor = "#FFFFFF"
     $(".container")[0].style.backgroundColor = "#000000"
-    $(".game_header")[0].style.borderColor = "#000000"
+    $(".game_header")[0].style.borderColor = "#FFFFFF"
     $(".footer a").css({"color":"#FFFFFF"});
     $("#site_credits a").css({"color":"#FFFFFF"});
     $("#site_credits p").css({"color":"#FFFFFF"});
@@ -1758,13 +1758,13 @@ campaignTrail_temp.achievements = {
       "image" : "",
       "description" : "the south isnt lost"
   },
-  "massachusett liberal" : {
-      "image" : "",
-      "description" : "another election"
-  },
   "weekend passes" : {
       "image" : "",
       "description" : "throw out death"
+  },
+  "massachusett liberal" : {
+      "image" : "",
+      "description" : "another election"
   },
   "horizons" : {
       "image" : "",
@@ -1802,7 +1802,7 @@ campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail
 campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 15, \"candidates\": [152, 153, 154, 155]}]");
 campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 15, \"candidates\": [152, 153, 154, 155]}]");
 campaignTrail_temp.difficulty_level_json = JSON.parse("[{\"model\": \"campaign_trail.difficulty_level\", \"pk\": 1, \"fields\": {\"name\": \"Realistic\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 2, \"fields\": {\"name\": \"Adjusted\", \"multiplier\": 1.02}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 3, \"fields\": {\"name\": \"Elevated\", \"multiplier\": 1.07}}]");
-campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.002, \"state_variance\": 0.008, \"question_count\": 35, \"default_map_color_hex\": \"#C9C9C9\", \"no_state_map_color_hex\": \"#999999\"}}]");
+campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.002, \"state_variance\": 0.008, \"question_count\": 35, \"default_map_color_hex\": \"#FFFFFF\", \"no_state_map_color_hex\": \"#999999\"}}]");
 campaignTrail_temp.candidate_dropout_json = JSON.parse("[{\"model\": \"campaign_trail.candidate_dropout\", \"pk\": 1, \"fields\": {\"candidate\": 36, \"affected_candidate\": 18, \"probability\": 1.0}}]");
 campaignTrail_temp.temp_election_list = [{"id": 15, "year": 1988, "is_premium": 0, "display_year": "1988robertson"}];
 campaignTrail_temp.show_premium = true;
@@ -1901,7 +1901,6 @@ if (!element) {
   	padding: 10px;
   	`
         	$("#trackSelParent")[0].prepend(timeTracker);
-        	$("#trackSelParent")[0].prepend(document.createElement("br"));
         	var positionDisplay = document.createElement("gg");
         	positionDisplay.id = "position-display";
         	var timeSlider = document.createElement("input");
@@ -2042,7 +2041,7 @@ if (!element) {
 	function newMusicPlayer(previousBgImage = null) {
         	trackSel = document.createElement("div");
         	trackSel.id = "trackSelParent";
-        	let z = `<br><br><br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;color: #000000;border-color:#60DAFF;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:625px;background-color:#FACCFF;float:right;">`
+        	let z = `<div id='trackSel' style="text-align:left;color: #000000;border-color:#60DAFF;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:220px; width:625px;background-color:#FACCFF;float:right;">`
         	z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
         	for (i in soundtracks) {
             	if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
