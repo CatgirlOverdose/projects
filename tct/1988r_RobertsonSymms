@@ -1616,7 +1616,7 @@ construct = (a = 1) => {
         ctsAchievement("mother proud today");
     }
 
-    if (winner == 152 && (aa[0].popular_votes == quickstats[2])) {
+    if ((winner == 152 && aa[0].candidate == 152) && (aa[0].popular_votes == quickstats[2])) {
         ctsAchievement("your laserbeam");
     }
 
