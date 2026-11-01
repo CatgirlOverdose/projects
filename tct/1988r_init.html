@@ -1026,29 +1026,29 @@ function undertaleTheme() {
     style_overwrite.innerHTML = 
       `
       #difficulty_level h3 {
-          color: #FFFFFF;
+          color: #000000;
       }
       #game_options h3 {
-          color: #FFFFFF;
+          color: #000000;
       }
       #running_mate_form h3 {
-          color: #FFFFFF;
+          color: #000000;
       }
       #candidate_form h3 {
-          color: #FFFFFF;
+          color: #000000;
       }
       #election_year_form h3 {
-          color: #FFFFFF;
+          color: #000000;
       }
       #credits {
-          color: #FFFFFF;
+          color: #000000;
       }
       .footer {
-          border-color: #FFFFFF;
+          border-color: #C68A53;
           border-style: solid;
       }
       hr {
-          border-color: #FFFFFF;
+          border-color: #2E2244;
           border-style: solid;
       }
       #opponent_selection_description_window {
@@ -1096,7 +1096,7 @@ function undertaleTheme() {
           border-style: solid;
       }
       #inner_window_2 {
-          border-color: #FFFFFF;
+          border-color: #2E2244;
           border-style: solid;
       }
       #election_description_window {
@@ -1107,7 +1107,7 @@ function undertaleTheme() {
       }
       #map_container {
           background-color: #000000;
-          border-color: #00FF43;
+          border-color: #FFFFFF;
           border-style: solid;
       }
       #candidate_pic {
@@ -1152,19 +1152,19 @@ function undertaleTheme() {
           border-color: #F5B1A3;
       }
       #overall_result_container {
-          background-color: #000000;
+          background-color: #D3C6EC;
       }
       #state_result_container {
-          background-color: #000000;
+          background-color: #D3C6EC;
       }
       #menu_container {
-          background-color: #000000;
+          background-color: #D3C6EC;
       }
       .game_header {
-          border-color: #000000;
+          border-color: #2E2244;
       }
       .content_single {
-          border-color: #000000;
+          border-color: #2E2244;
       }
       .inner_window_question {
           color: #FFFFFF;
@@ -1531,21 +1531,21 @@ const gameThemes = {
     undertaleTheme()
     selectedTheme.text_col="white"
     corrr = `<h2>&nbsp;</h2>`
-    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000"
-    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#000000"
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#573399"
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#CCCCCC"
     document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
-    $("#game_window")[0].style.backgroundColor = "#000000"
-    $("#game_window")[0].style.borderColor = "#FFFFFF"
+    $("#game_window")[0].style.backgroundColor = "#D3C6EC"
+    $("#game_window")[0].style.borderColor = "#2E2244"
     $("#game_window")[0].style.backgroundImage = ""
-    $(".container")[0].style.borderColor = "#FFFFFF"
-    $(".container")[0].style.backgroundColor = "#000000"
-    $(".game_header")[0].style.borderColor = "#FFFFFF"
+    $(".container")[0].style.borderColor = "#2E2244"
+    $(".container")[0].style.backgroundColor = "#C68A53"
+    $(".game_header")[0].style.borderColor = "#2E2244"
     $(".footer a").css({"color":"#FFFFFF"});
     $("#site_credits a").css({"color":"#FFFFFF"});
     $("#site_credits p").css({"color":"#FFFFFF"});
-    document.getElementById("header").src = "https://file.garden/ZRcfmLUQNGkxIJds/blackSpaceBanner.jpg";
+    document.getElementById("header").src = "https://file.garden/ZRcfmLUQNGkxIJds/undertaleBanner.jpg";
     document.body.style.backgroundColor = "black";
-    document.body.background = "";
+    document.body.background = "https://file.garden/ZRcfmLUQNGkxIJds/undertaleBackground.jpg";
   },
   "Dev-olution" : function() {
     devoTheme()
@@ -1671,23 +1671,19 @@ campaignTrail_temp.achievements = {
       "image" : "https://file.garden/ZRcfmLUQNGkxIJds/materialBoy.jpg",
       "description" : "lose to an idealist"
   },
-  "a beautiful world" : {
-      "image" : "https://file.garden/ZRcfmLUQNGkxIJds/beautifulWorld.jpg",
-      "description" : "'lose' the election"
-  },
 // CHALLENGE
 // //
   "check the number" : {
       "image" : "https://file.garden/ZRcfmLUQNGkxIJds/checkNumber.jpg",
-      "description" : "dont back down"
+      "description" : "dont back down<br>(have a populist score of 15 and above)"
   },
   "everyones a captain kirk" : {
       "image" : "https://file.garden/ZRcfmLUQNGkxIJds/captainKirk.jpg",
-      "description" : "tow the party line"
+      "description" : "tow the party line<br>(have an establishment score of 6 and above)"
   },
   "i see danger" : {
       "image" : "https://file.garden/ZRcfmLUQNGkxIJds/seeDanger.jpg",
-      "description" : "keep on talking"
+      "description" : "keep on talking<br>(have a rhetoric score of 9 and above)"
   },
   "mother proud today" : {
       "image" : "https://file.garden/ZRcfmLUQNGkxIJds/motherProud.jpg",
@@ -1696,14 +1692,6 @@ campaignTrail_temp.achievements = {
   "your laserbeam" : {
       "image" : "https://file.garden/ZRcfmLUQNGkxIJds/yourLaserbeam.jpg",
       "description" : "win with a majority"
-  },
-  "its a good thing" : {
-      "image" : "https://file.garden/ZRcfmLUQNGkxIJds/goodThing.jpg",
-      "description" : "pauls faithless"
-  },
-  "freedom from choice" : {
-      "image" : "https://file.garden/ZRcfmLUQNGkxIJds/freedomChoice.jpg",
-      "description" : "faithless"
   },
 // SPECIAL CONDITION
 // //
@@ -1791,7 +1779,7 @@ campaignTrail_temp.modBoxTheme = {
      "ui_text_color": "#FFFFFF"
 }
 
-document.getElementById("inner_window_1").children[0].innerHTML="<h3>are you prepared to enter an election of religious extremism?</i></h3>"
+document.getElementById("inner_window_1").children[0].innerHTML="<h3>thank you for considering my mod!!</i></h3>"
 
 document.getElementById("inner_window_1").children[1].innerHTML = "<p>henno, hoiiii, haiiiii. thank you so much for considering to play mod!!!!!</p><img src='https://file.garden/ZRcfmLUQNGkxIJds/robert.jpg' width='370px'><p>this is a scenario that looks into an impossibility of a pat robertson candidacy in the 1988 presidential election.</p><h2>content warning</h2><p>this mod deals with the following, so i hope this helps:</p><li>christian extremism</li><li>homophobia</li><li>dehumanizing language</li><li>excessive police force</li><li>patriarchal views</li><p>the views within the mod are not the creators or anyone associated.</p>";
 
@@ -2546,10 +2534,6 @@ if (!element) {
 {
     	name: "Birds Fly (Whispers To A Scream) | The Icicle Works",
     	url: "https://files.catbox.moe/vhsive.mp3",
-	},
-{
-    	name: "Welcome To The Pleasuredome | Frankie Goes To Hollywood",
-    	url: "https://files.catbox.moe/mzdgjy.mp3",
 	},
 {
     	name: "Nowhere Girl | B-Movie",
